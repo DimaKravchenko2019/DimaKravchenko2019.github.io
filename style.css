@@ -1,69 +1,68 @@
 body {
 	margin: 0 auto;
+	background-color: #eFEFD6;
 }
-
 .wrapper {
 	max-width: 100%;
 	margin: 0 auto;
-	background-color: white;
+	background-color: #FFEFD5;
 }
-
 .headers {
-	background-color: #e8ebf1;
+	background-color: #FFEFD5;
 }
 header {
 	justify-content: space-between;
 }
-
 header, .content {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap; 
-	max-width: 1000px;
-	width: 100%;
-	margin: 0 auto;
-	
-	padding: 40px 0;	
-	text-align: center;
+	width: 90%;
+	margin: 0 auto;	
 }
-
+a img {
+	width: 200px;
+}
+img {
+	width: 500px;
+	box-sizing: border-box;
+}
 ul 	{
 	margin: 0;
 	padding: 0;
 	display: flex;
+	text-align: center;
 }
 
 li {
 	list-style: none; 
-	margin-right: 15px;
-	font-style: Tahoma;
-	font-size: 22px;
+	font-style: Time new romans;
+	font-size: 20px;
 	text-align: center;
+	margin-right: 5px;
 }
 
 ul li a {
 	text-decoration: none;
 	color: black;
-	border: 2px solid transparent;
+	border: 5px solid transparent;
 }
-
-
 ul li a:hover {
 	color: black;
-	background: white;
-	border-radius: 5px;
-	border-top: 3px solid #7FFFD4;
+	background: #DCDCDC;
+	border-radius: 1px;
 }
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 796px) 
+{
 	header {
 		flex-direction: column;
-		padding: 20px 0;
+		padding:  0 auto;
 	}
 	
 	header img {
 		display: inline-block;
-		margin-bottom: 20px;
-	}
+		margin: 0 auto;
+		}
 
 	header ul {
 		flex-direction: column;
@@ -72,35 +71,41 @@ ul li a:hover {
 	header ul li {
 		margin: 7px 0 7px 0; 
 	}
-
-}
-b {
-	font-size: 60px;
-}
- ss:hover {
-	color: black;
-	background: #7FFFD4;
-	text-align: center;
 }
 .contents {
-	background-color: #fff;
-	padding: 20px 0;
+	background-color: #eFEFD6;
+	padding: 0 auto;
 	box-sizing: border-box;
 }
 .content img {
 	display: inline-block;
-	width: 24%;
-	margin: 5px;
+	width: 350px;
+	margin: 0 auto;
 	transition: .4s;
 	cursor: pointer;
 }
 .content {
-	padding: 5px;
+	padding: 0 auto;
+	justify-content: center;
+	font: center;
+}
+.content1 img {
+	display: inline-block;
+	width: 350px;
+	margin: 0 auto;
+	transition: .4s;
+	cursor: pointer;
+	width: 100%;
+}
+.content1 {
+
+	margin: 0 auto;
 	justify-content: center;
 }
 .content img:hover {
-	transform: scale(1.05);
+	transform: scale(1.1);
 	box-shadow: 0 0 8px 0px red;
+	border-radius: 13px;
+	color: black;
+	background: #DCDCDC;
 }
-
-
